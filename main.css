@@ -1,0 +1,135 @@
+#robinson {
+	width: 280px;
+	height: 280px;
+	border-radius: 100%;
+	border-style: dashed;
+	padding: 10px;
+	float: left;
+}
+
+#bio {
+	display: inline-block;
+	text-align: center;
+	border: auto;
+	margin-top: 50px;
+}
+
+.nav-sep {
+	width: 80%;
+	color: #BF5FFF;
+	height: 4px;
+	background-color: purple;
+}
+
+header {
+	background-color: orange;
+	padding: 2px;
+	border-top: 1px;
+	margin: 1px;
+	text-align: center;
+	border-radius: 20px;
+}
+#navigation {
+	padding-bottom: 10px;
+	display: inline-block;
+
+}
+
+body {
+	background-color: #5F9F9F;
+	max-width: 948px;
+	border: auto;
+	margin: auto;
+}
+
+#info {
+	color: white;
+}
+
+
+
+#GIT {
+	font-size: 30px;
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+.input-fields {
+	border: 10px;
+	margin: 10px;
+	padding: 10px;
+	
+}
+
+fieldset {
+	text-align: center;
+}
+
+#form {
+	display: inline-block;
+}
+
+.form input {
+	width: 50px;
+}
+
+li {
+	color: black;
+}
+
+#paw {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	margin-top: 30px;
+
+}
+
+#info {
+	display: inline-block;
+}
+
+#category li  {
+	display: inline-block;
+	text-align: center;
+	font-size: 15px;
+}
+
+#category a:hover {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+footer {
+	border: auto;
+	margin: auto;
+	text-align: center;
+	font-style: italic;
+	background-color: orange;
+	border-radius: 20%;
+
+}
+
+.about-me {
+	text-align: left;
+	padding: 5px;
+	margin: 10px;
+	font-style: italic;
+}
+
+#contact-info li {
+	display: block;
+	list-style: none;
+	padding: 5px;
+	border: 5px;
+}
+
+.contact-img {
+	display: inline-block;
+	clear: left;
+}
+
