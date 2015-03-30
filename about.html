@@ -2,41 +2,83 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title> Trailing Tailz | Destination...Dog! </title>
+		<title> Trailing Tailz </title>
+		<link href='http://fonts.googleapis.com/css?family=Monoton|Megrim|Bonbon|Plaster|Rock+Salt' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="main.css" type="text/css">
+		<script src="javascript/jquery.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".button").click(function(){
+					alert("Your submission has been received. You will receive an automated email confirmation. Thank you in your interest in Trailing Tailz. ");
+				});
 
+			});
+		
+			
+		</script>
+		
 	</head>
 
 	<body>
-		<header>
-			<!-- make the paw clickable so it makes a barking sound//easter egg-->
-			<a href="index.html"><h1 id="info"> Trailing Tailz <img src="images/Footprint.png" id="paw"> </h1> </a>
-			<h3><i> Pet Services</i></h3>
-			<hr class="nav-sep">
-			<nav id="navigation">
-				<ul id="category">
-					<li><a href="about.html">About </a></li> |
-					<li><a href="index.html">Services </a></li> |
-					<li><a href="testimonial.html">Testimonials </a></li> |
-					<li><a href="contact.html">Contact </a></li>
-				</ul>
-			</nav> 
-		</header> <br>
+		<div id="everything-centered">
 
-		<h1>About Me:</h1>
+			<header>
+				<h1> Trailing Tailz </h2>
+			</header>
 
-		<p class="about-me">I was just kind of thrown into owning a dog with my buddy Cloud. I was completely mystified about what to do with this creature pooping all over my apartment and vying for my attention all day long. Like I do with any mystery or challenge, I took it by the horns (leash, in this case?) and faced the painful process of learning by trial and error and networking. Thanks to Cloud, I met more dogs than I ever would without him and gradually gained confidence and knowledge on interacting with our best friends. </p>
 
-		<p class="about-me">When I had the opportunity to work for a major dog-walking company, my experience with my own dog got me in the door. I thought it would be a dream job and came in with all kinds of optimism and drive. That was quickly challenged when I realized my long walks with Cloud did not give me the stamina to trek the city on foot for 8 hours with packs of wily pups. But once again, I met the challenge head on and took in everything the experience had to offer for 2 full years. </p>
 
-		<p class="about-me">With Trailing Tailz, I seek to apply the one lesson that has consistently come up in all my experiences: every dog appreciates a nice walk. And so do I. Of course, it's important to know how to keep a pup healthy, to make sure she's a model citizen in an elevator or at the dog park, to remember to put out the water and keep the chocolate out of reach. I am committed to all of our buddies' well-being as if they were my very own and prepared to take on any challenges that come along the way. But I live for the wagging tail and welcoming bark (occasionally getting the wind knocked out of me by a happy lunge) and that mad rush out the door.</p>
-		
+
+			<aside id="sidebar">
+				<h1 id="navigation-menu-title"> Learn More </h1>
+
+				<nav>
+					<ul>
+						<li><a href="about.html">About</a></li>
+						<li><a href="index.html">Services & Pricing</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+					</ul>
+				</nav>
+
+				<div id="social-media-links">
+					<ul>
+						<li><img src="images/facebook.png" class="social-media-icons"><a href="www.facebook.com/Robinsonius">Like me</a></li>
+						<li><img src="images/twitter.png" class="social-media-icons"><a href="">Tweet at me</a></li>
+						<li><img src="images/linkedin.png" class="social-media-icons"><a href="">Network with me</a></li>
+					</ul>
+				</div>
+			</aside>
+
+
+			<section id="main-section">
+				<div id="main-section-header">
+					<h1> About Me </h1>
+				<div>
+				<img id="robinson-profile" src="images/robinson-profile.jpeg">
+				<p>I was just kind of thrown into owning a dog with my buddy Cloud, 9 years ago. I was completely mystified about what to do with this creature pooping all over my apartment and vying for my attention all day long. Like I do with any mystery or challenge, I took it by the horns (leash, in this case?) and faced the painful process of learning by trial and error and networking. Thanks to Cloud, I met more dogs than I ever would without him and gradually gained confidence and knowledge on interacting with our best friends.</p> 
+
+				<p>When I had the opportunity to work for a major dog-walking company, my experience with my own dog got me in the door. I thought it would be a dream job and came in with all kinds of optimism and drive. That was quickly challenged when I realized my long walks with Cloud did not give me the stamina to trek the city on foot for 8 hours with packs of wily pups. But once again, I met the challenge head on and took in everything the experience had to offer for 2 full years.</p>
+
+				<p>With Trailing Tailz, I seek to apply the one lesson that has consistently come up in all my experiences: every dog appreciates a nice walk. And so do I. Of course, it's important to know how to keep a pup healthy, to make sure she's a model citizen in an elevator or at the dog park, to remember to put out the water and keep the chocolate out of reach. I am committed to all of our buddies' well-being as if they were my very own and prepared to take on any challenges that come along the way. But I live for the wagging tail and welcoming bark (occasionally getting the wind knocked out of me by a happy lunge) and that mad rush out the door.
+				</p>
+
+
+
+			</section>
+
 			
-		
-		<footer>
-			<hr>
-			&copy; 2014 Trailing Tailz
-		</footer> 
+				<aside id="sidebar-box-newsletter">
+					<h4> Sign up for email updates </h4>
+					<form>
+						<input type="email" placeholder="Please enter your email" id="enter-email">
+						<button type="submit" id="newslttr-submit" required>submit</button>
+					</form>
+				</aside>
+			<footer>
+				<p id="copyright"><i>&copy; 2015 Trailing Tailz</i></p>
+			</footer>
+		</div>
 
 	</body>
 
